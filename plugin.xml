@@ -3,24 +3,24 @@
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
            id="org.hbabaie.mytracking"
       version="0.1.0">
-    <name>Calendar</name>
-    <description>Sample PhoneGap Calendar Plugin</description>
+    <name>MyTracking</name>
+    <description>Sample PhoneGap MyTracking Plugin</description>
     <license>MIT</license>
     <keywords>phonegap,mytracking</keywords>
 
 
-    <js-module src="www/mytracking.js" name="Calendar">
+    <js-module src="www/mytracking.js" name="MyTracking">
         <clobbers target="window.mytracking" />
     </js-module>
 
     <!-- android -->
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
-            <feature name="Calendar">
-                <param name="android-package" value="org.hbabaie.mytracking.Calendar"/>
+            <feature name="MyTracking">
+                <param name="android-package" value="org.hbabaie.mytracking.MyTracking"/>
             </feature>
         </config-file>
 
-        <source-file src="src/android/Calendar.java" target-dir="src/org/hbabaie/mytracking" />
+        <source-file src="src/android/MyTracking.java" target-dir="src/org/hbabaie/mytracking" />
      </platform>          
 </plugin>
