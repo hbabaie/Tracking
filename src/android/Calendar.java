@@ -1,4 +1,4 @@
-package org.hbabaie.calendar;
+package org.hbabaie.mytracking;
  
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;

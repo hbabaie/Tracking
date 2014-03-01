@@ -1,4 +1,4 @@
-var calendar = {
+var mytracking = {
     createEvent: function(title, location, notes, startDate, endDate, successCallback, errorCallback) {
         cordova.exec(
             successCallback, // success callback function
@@ -15,4 +15,4 @@ var calendar = {
         ); 
     }
 }
-module.exports = calendar;
+module.exports = mytracking;

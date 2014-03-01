@@ -1,7 +1,7 @@
 CalendarPlugin
 ==============
 
-Sample PhoneGap plugin to access and add entries to the native calendar on Android. 
+Sample PhoneGap plugin to access and add entries to the native mytracking on Android. 
 
 Install
 ========
